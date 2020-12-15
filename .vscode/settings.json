@@ -1,0 +1,33 @@
+{
+  "editor.snippetSuggestions": "top",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveForeground": "#ffffffcc",
+    "titleBar.activeBackground": "#FF2C70",
+    "titleBar.inactiveBackground": "#FF2C70CC"
+  },
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // turn it off for JS and JSX, we will do this via eslint
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // Lints with Standard JS
+  "standard.enable": true,
+
+  // Format files with Standard whenever you save the file
+  "standard.autoFixOnSave": true,
+
+  // Files to validate with Standard JS
+  "standard.validate": [
+    "javascript",
+    "javascriptreact"
+  ]
+}

@@ -1,0 +1,19 @@
+
+share .vscode folder
+
+1. init project dulu
+2. instal dependecies
+- bcrypt
+- body-parser
+- finalhandler
+- router
+- nodemon -> ini dipakai terakhir kali
+3. buat function running server
+4. jelasin cara running API
+5. buat simple CRUD
+
+
+
+http method
+https://medium.com/maverick-labs/a-quick-overview-of-http-methods-51098b1300bd
+
